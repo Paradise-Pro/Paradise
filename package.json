@@ -1,0 +1,26 @@
+{
+  "name": "paradise-structured-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"node bot.js\" \"next dev\"",
+    "build": "next build",
+    "start": "concurrently \"node bot.js\" \"next start\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "discord-logs": "^2.2.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^12.10.0",
+    "next": "^15.3.1",
+    "next-auth": "^4.24.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5"
+  }
+}
